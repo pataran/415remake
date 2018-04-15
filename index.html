@@ -1,0 +1,25 @@
+<html>
+   <body>
+
+   <form action = "http://127.0.0.1:1069/rest/emr/" method = "GET">
+
+      <input type = "submit" value = "Click to get all records">
+   </form>
+
+      <form action = "http://127.0.0.1:1069/rest/emr/id" method = "GET">
+         PatientId: <input type = "text" name = "id">  <br>
+         <input type = "submit" value = "Submit">
+      </form>
+
+   <form action = "http://127.0.0.1:1069/rest/emr/" method = "POST">
+      id: <input type = "text" name = "id">  <br>
+      name: <input type = "text" name = "name">  <br>
+      address: <input type = "text" name = "address"><br>
+      medications: <input type = "text" name = "medications"><br>
+      birthdate: <input type = "text" name = "birthdate"><br>
+      provider: <input type = "text" name = "provider"><br>
+      <input type = "submit" value = "POST record">
+   </form>
+
+   </body>
+</html>
