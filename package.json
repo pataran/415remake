@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "test",
   "main": "hello.js",
-  "scripts": {
-    "test": "dir"
+  "scripts":{
+  "start": "node hello.js"
   },
   "author": "patrick",
   "license": "ISC",
