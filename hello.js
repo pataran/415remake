@@ -3,7 +3,7 @@ var express = require('express');
 var chalk = require('chalk');
 var app = express();
 var router = express.Router();
-
+//body parser for post!
 const bodyParser = require('body-parser');
 
 app.use(express.static('public'));
